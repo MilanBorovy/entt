@@ -18,6 +18,10 @@ module;
 #include <unordered_set>
 #include <utility>
 
+#ifdef ENTT_USER_CONFIG
+#   include ENTT_USER_CONFIG
+#endif // ENTT_USER_CONFIG
+
 #include "config/config.h"
 #include "config/macro.h"
 #include "config/version.h"
